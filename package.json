@@ -1,0 +1,13 @@
+{
+  "name": "npm_workspaces",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build:package-a && npm run build:package-b",
+    "build:package-a": "cd packages/package_a && npm run build",
+    "build:package-b": "cd packages/package_b && npm run build"
+  },
+  "author": "",
+  "license": "ISC"
+}
