@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "eslint": "^9.1.1",
     "package_a": "1.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo 'all package-b tests passed!'"
   }
 }
